@@ -6,7 +6,7 @@ export default function Imagesection() {
         <div className="illustration">
             <img src={Picture} alt="Illustration" />
             <div className="illustration-content">
-                <h3>Sign in to name <br /><span class="text">Lorem Ipsum is Simply</span></h3>
+                <h3>Sign in to name <br /><span className="text">Lorem Ipsum is Simply</span></h3>
             </div>
         </div>
     );

@@ -1,9 +1,10 @@
-import Contentsection from "./Logincontentsection";
+import Logincontentsection from "./Logincontentsection";
 import Imagesection from './Imagesection';
+
 export default function Signin() {
     return (
         <div className="container">
-            <Contentsection />
+            <Logincontentsection />
             <Imagesection />
         </div>
     );
