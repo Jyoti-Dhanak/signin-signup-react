@@ -1,0 +1,40 @@
+.illustration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 8, 66, 1);
+  color: white;
+  text-align: center;
+  margin-left: 130px;
+  width: 43vw;
+  height: 89vh;
+  margin-top: 13px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.illustration-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+  padding-top: 20px;
+  padding-left: 30p;
+}
+
+.illustration img {
+  max-width: 80%;
+  height: auto;
+}
+
+.text {
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+  .illustration {
+    display: none;
+  }
+}

@@ -1,11 +1,8 @@
-import './App.css';
-import Path from './Routes/Path';
-
+import "./App.css";
+import Path from "./routes/Path";
 
 function App() {
-  return (
-    <Path />
-  );
+  return <Path />;
 }
 
 export default App;

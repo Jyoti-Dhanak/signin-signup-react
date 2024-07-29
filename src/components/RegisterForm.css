@@ -1,0 +1,46 @@
+.signup-form {
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 500px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login-credentials {
+  width: 31vw;
+  height: 75vh;
+  margin-left: 80px;
+  margin-top: 60px;
+}
+
+.txt {
+  color: blue;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+p {
+  font-size: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
